@@ -1,6 +1,10 @@
 # Solubility Prediction by Random Forest Algorithm Using RDKit 2D and 3D Descriptors  
 **Mehran Mansouri, Pharmacy student at Mashhad University of Medical Sciences**  
-**Make sure to install miniconda and RDKit. Open this in conda kernel.**  
+
+## Important notes:
+- This project is just a training project on RDKit 2D and 3D Descriptors. So, this is not a functional project.
+- Make sure to install miniconda and RDKit. Open this in conda kernel.
+- 
 ## Abstract
 This project involves building a predictive machine learning model using molecular descriptor data. The workflow includes data preprocessing with scaling, dimensionality reduction using PCA, and model training with hyperparameter optimization via GridSearchCV. PCA reduces the feature set from 221 to 17 components, and the best model is selected based on cross-validation performance. Despite these efforts, the test R² is lower than expected, prompting further exploration of alternative feature selection methods, model experimentation, and regularization techniques to enhance predictive accuracy.
 
