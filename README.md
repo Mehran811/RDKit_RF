@@ -39,7 +39,6 @@ Experimentation with different models (e.g., Random Forest, Gradient Boosting) a
 Regularization techniques (e.g., Ridge, Lasso) and hyperparameter tuning are proposed to address overfitting and improve generalization.
 
 ## Get in contact with me:
-- Email and Skype: Mehran.mansouri811@gmail.com
-- Phone number: +989150511552
+- Email: Mehran.mansouri811@gmail.com
 - Telegram: @Mehran_mns
 
