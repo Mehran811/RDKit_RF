@@ -1,4 +1,4 @@
-## Solubility Prediction by Random Forest Algorithem Using RDKit 2D and 3D Descriptors  
+# Solubility Prediction by Random Forest Algorithm Using RDKit 2D and 3D Descriptors  
 **Mehran Mansouri, Pharmacy student at Mashhad University of Medical Sciences**  
 **Make sure to install miniconda and RDKit. Open this in conda kernel.**  
 ## Abstract
@@ -9,7 +9,7 @@ This project involves building a predictive machine learning model using molecul
 This project focuses on building a machine learning model to predict a target variable using molecular descriptor data. The workflow includes data preprocessing, feature selection, dimensionality reduction, and model training with hyperparameter optimization. Below is a detailed breakdown of the steps:
 
 1. Create database:  
-I used some random SMILEs reciving from an AI model as my data. Not all of these data were valid. Then I added lables considering logP, molecular weight, and hydrogen bond donors.
+I used some random SMILEs received from an AI model as my data. Not all of these data were valid. Then, I added labels considering logP, molecular weight, and hydrogen bond donors.
 
 2. Data Preprocessing:  
 The dataset contains molecular descriptors as features and a target variable for prediction.
@@ -27,11 +27,15 @@ The best model is selected based on cross-validation performance, and its parame
 
 5. Evaluation:  
 The model is evaluated on the test set using the R² metric to assess its predictive performance.
-Despite using the best parameters and reducing the feature set, the test R² is lower than expected, indicating potential issues such as overfitting, underfitting, or suboptimal feature selection.
+Despite using the best parameters and reducing the feature set, the test R² is lower than expected, indicating potential issues such as overfitting, short data size, or suboptimal feature selection.
 
 **Suggestions for Improvement:**  
 Alternative feature selection methods (e.g., SelectKBest, RFE) are recommended to identify features most relevant to the target variable.
 Experimentation with different models (e.g., Random Forest, Gradient Boosting) and ensemble methods is suggested to improve performance.
 Regularization techniques (e.g., Ridge, Lasso) and hyperparameter tuning are proposed to address overfitting and improve generalization.
 
+## Get in contact with me:
+- Email and Skype: Mehran.mansouri811@gmail.com
+- Phone number: +989150511552
+- Telegram: @Mehran_mns
 
