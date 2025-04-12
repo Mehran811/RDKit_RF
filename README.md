@@ -4,9 +4,10 @@
 ## Important notes:
 - This project is just a training project on RDKit 2D and 3D Descriptors. So, this is not a functional project.
 - Make sure to install miniconda and RDKit. Open this in conda kernel.
+- You can train the random forest model each time. Also, I saved this model so you can skip training it to save time. However, it would reduce R2 as the data changes after running the early cells.
 
 ## Abstract
-This project involves building a predictive machine learning model using molecular descriptor data. The workflow includes data preprocessing with scaling, dimensionality reduction using PCA, and model training with hyperparameter optimization via GridSearchCV. PCA reduces the feature set from 221 to 17 components, and the best model is selected based on cross-validation performance. Despite these efforts, the test R² is lower than expected, prompting further exploration of alternative feature selection methods, model experimentation, and regularization techniques to enhance predictive accuracy.
+This project involves building a predictive machine learning model using molecular descriptor data. The workflow includes data preprocessing with scaling, dimensionality reduction using PCA, and model training with hyperparameter optimization via GridSearchCV. PCA reduces the feature set from 221 to 17 components, and the best model is selected based on cross-validation performance. Five other models were trained. The comparison of these models is available as a plot. Despite these efforts, the test R² is lower than expected, prompting further exploration of alternative feature selection methods, model experimentation, and regularization techniques to enhance predictive accuracy.
 
 
 ## Details
