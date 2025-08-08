@@ -42,4 +42,5 @@ Regularization techniques (e.g., Ridge, Lasso) and hyperparameter tuning are pro
 ## Get in contact with me:
 - Email: Mehran.mansouri811@gmail.com
 - Telegram: @Mehran_mns
+- LinkedIn: http://www.linkedin.com/in/mehran-mansouri-4a7579360
 
